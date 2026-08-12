@@ -1,8 +1,8 @@
 lavalink:
     plugins:
-        - dependency: dev.lavalink.youtube:youtube-plugin:1.18.0
+        - dependency: dev.lavalink.youtube:youtube-plugin:1.18.1
           repository: https://maven.lavalink.dev/releases
-        - dependency: com.github.topi314.lavasrc:lavasrc-plugin:4.8.1
+        - dependency: com.github.topi314.lavasrc:lavasrc-plugin:4.8.2
           repository: https://maven.lavalink.dev/releases
         - dependency: com.github.topi314.lavasearch:lavasearch-plugin:1.0.0
           repository: https://maven.lavalink.dev/releases
@@ -22,7 +22,7 @@ lavalink:
         frameBufferDurationMs: 5000
         gcWarnings: true
         opusEncodingQuality: 5
-        password: AeroX
+        password: WalksysDev
         playerUpdateInterval: 5
         readTimeout: 60000
         requestTimeout: 60000
@@ -100,8 +100,8 @@ plugins:
         enabled: true
         oauth:
             enabled: true
-            refreshToken: null
-            skipInitialization: false
+            refreshToken: null # ركز على الرساله ديت انا فيها بيطلع لي اللينك والكود باخذ التوكن بتاع التي في بتاع حساب جوجل في اليوتيوب بس بيحصل معايا المشكله اللي انا قلت لك عليها في الرساله بس في الصوت بيكون شغال عادي 
+            skipInitialization: false # وكمان بفعل ديت بخليهاtrue بعد ما بحط التوكن بعد ما خلاص اخذت التوكن وحطيته وبفعل ديت
         remoteCipher:
             url: https://cipher.kikkia.dev/
             userAgent: lavalink-server
@@ -112,4 +112,4 @@ server:
     address: 0.0.0.0
     http2:
         enabled: false
-    port: 25582
+    port: 5423
